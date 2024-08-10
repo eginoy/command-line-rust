@@ -1,0 +1,26 @@
+//devcontainer.json
+{
+  "name": "Rust",
+  // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  // Features to add to the dev container. More info: https://containers.dev/features.
+  "features": {
+    "ghcr.io/devcontainers/features/rust:1": {}
+  },
+  "customizations": {
+    "vscode": {
+      "settings": {},
+      "extensions": [
+        "streetsidesoftware.code-spell-checker",
+        "rust-lang.rust-analyzer"
+      ]
+      // "forwardPorts": [3000],
+      //   "portsAttributes": {
+      //     "3000": {
+      //       "label": "Hello Remote World",
+      //       "onAutoForward": "notify"
+      //     }
+      //   },
+      //   "postCreateCommand": "yarn install"
+      // "remoteUser": "root"
+    }
