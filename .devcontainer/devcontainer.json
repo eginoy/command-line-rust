@@ -16,11 +16,13 @@
         },
         "cSpell.words": [
           "nonblank"
-        ]
+        ],
+        "debug.allowBreakpointsEverywhere": true
       },
       "extensions": [
         "streetsidesoftware.code-spell-checker",
-        "rust-lang.rust-analyzer"
+        "rust-lang.rust-analyzer",
+        "vadimcn.vscode-lldb"
       ]
       // "forwardPorts": [3000],
       //   "portsAttributes": {
